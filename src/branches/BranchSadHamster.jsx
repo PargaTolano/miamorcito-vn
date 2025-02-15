@@ -22,7 +22,13 @@ export function BranchSadHamster() {
         {"Alcabo ni queria :("}
       </CustomSay>
       <CustomSay
-        image={{ uri: sadHamster }}
+        image={{
+          uri: sadHamster,
+          style: {
+            width: "100vw",
+            transform: "scale(0.5)",
+          },
+        }}
         menu={[
           {
             label: "Ta weno :(",

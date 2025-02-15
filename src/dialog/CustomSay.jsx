@@ -15,12 +15,13 @@ export function CustomSay(props) {
         borderRadius: "10px",
         backgroundColor: "#444444E0",
         fontSize: "0.5rem",
+        color: 'white',
+        fontFamily: 'Roboto',
         width: "1000px",
         height: "200px",
       }}
       {...props}
       durationMs={300}
-      scrim={true}
     />
   );
 }
